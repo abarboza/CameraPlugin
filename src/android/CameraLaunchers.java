@@ -46,7 +46,7 @@ import android.widget.RelativeLayout;
  * redisplayed.
  */
 @SuppressLint("NewApi")
-public class CameraLaunchers extends CordovaPlugin {
+public class CameraLaunchers extends org.apache.cordova.camera.CameraLauncher {
 
 	private static final String GET_PICTURE = "getPicture";
 	private static final String TAKE_PICTURE = "takePicture";
