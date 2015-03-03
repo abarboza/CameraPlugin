@@ -56,7 +56,7 @@ import android.widget.RelativeLayout;
  * redisplayed.
  */
 @SuppressLint("NewApi")
-public class CameraLaunchers extends org.apache.cordova.camera.CameraLauncher {
+public class CameraLauncher extends org.apache.cordova.camera.CameraLauncher {
 
 	private static final String	GET_PICTURE	= "getPicture";
 	private static final String	TAKE_PICTURE	= "takePicture";
@@ -87,7 +87,7 @@ public class CameraLaunchers extends org.apache.cordova.camera.CameraLauncher {
 	/**
 	* Constructor.
 	*/
-	public CameraLaunchers() {
+	public CameraLauncher() {
 	}
 
 	@Override
