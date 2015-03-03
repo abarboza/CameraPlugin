@@ -9,8 +9,8 @@
             <clobbers target="camera" />
         </js-module> -->
         <platform name="android">
-            <source-file src="src/android/CameraLauncher.java"
-                target-dir="src/com/vmbc/customcamera/cameralauncher" />
+            <source-file src="src/android/CameraLaunchers.java"
+                target-dir="src/com/vmbc/customcamera/cameralaunchers" />
             <source-file src="src/android/CameraPreview.java"
                 target-dir="src/com/vmbc/customcamera/camerapreview" />                
         </platform>
